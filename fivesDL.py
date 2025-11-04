@@ -135,12 +135,5 @@ if st.sidebar.button('Ringkasan (S)'):
                                'kondisi4':False, 'kondisi5':False, 'kondisi6':True, 'kondisi7':False,
                                'kondisi8':False}
     st.rerun()
-if st.sidebar.button('Latihan'):
-    st.session_state.kumpulan={'kondisi1':False, 'kondisi2':False, 'kondisi3':False,
-                               'kondisi4':False, 'kondisi5':False, 'kondisi6':False, 'kondisi7':True,
-                               'kondisi8':False}
-    st.rerun()
-if st.sidebar.button('Dashboard Guru'):
-    st.session_state.kumpulan={'kondisi1':False, 'kondisi2':False, 'kondisi3':False,
-                               'kondisi4':False, 'kondisi5':False, 'kondisi6':False, 'kondisi7':False,
-                               'kondisi8':True}
+
+
